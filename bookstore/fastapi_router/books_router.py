@@ -1,7 +1,7 @@
 from typing import List
 from fastapi import APIRouter
-from ..models import Book, BookResponse
-from pydantic import BaseModel
+from models  import Book, BookResponse
+
 books_router = APIRouter()
 
 @books_router.get("/books")
